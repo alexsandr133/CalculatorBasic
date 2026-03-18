@@ -17,10 +17,13 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-private slots:
-    void on_pushButton_clicked();
-    void reciveveData(const QString);
 private:
     Ui::MainWindow *ui;
+private slots:
+    void digitPressed();
+    void operationPressed();
+    void calculate();
+    void pressedClean();
+    void returnNumbersFloat();
 };
 #endif // MAINWINDOW_H
