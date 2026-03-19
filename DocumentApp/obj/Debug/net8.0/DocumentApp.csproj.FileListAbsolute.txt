@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\DocumentApp\DocumentApp\bin\Debug\net8.0\DocumentApp.deps.json
+C:\Users\User\source\repos\DocumentApp\DocumentApp\bin\Debug\net8.0\DocumentApp.dll
+C:\Users\User\source\repos\DocumentApp\DocumentApp\bin\Debug\net8.0\DocumentApp.pdb
+C:\Users\User\source\repos\DocumentApp\DocumentApp\obj\Debug\net8.0\DocumentApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\DocumentApp\DocumentApp\obj\Debug\net8.0\DocumentApp.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DocumentApp\DocumentApp\obj\Debug\net8.0\DocumentApp.AssemblyInfo.cs
+C:\Users\User\source\repos\DocumentApp\DocumentApp\obj\Debug\net8.0\DocumentApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DocumentApp\DocumentApp\obj\Debug\net8.0\DocumentApp.dll
+C:\Users\User\source\repos\DocumentApp\DocumentApp\obj\Debug\net8.0\refint\DocumentApp.dll
+C:\Users\User\source\repos\DocumentApp\DocumentApp\obj\Debug\net8.0\DocumentApp.pdb
+C:\Users\User\source\repos\DocumentApp\DocumentApp\obj\Debug\net8.0\ref\DocumentApp.dll

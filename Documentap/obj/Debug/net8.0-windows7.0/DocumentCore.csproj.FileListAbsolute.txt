@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net8.0-windows7.0\DocumentApp.Form1.resources
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net8.0-windows7.0\DocumentCore.csproj.GenerateResource.cache
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net8.0-windows7.0\DocumentCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net8.0-windows7.0\DocumentCore.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net8.0-windows7.0\DocumentCore.AssemblyInfo.cs
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net8.0-windows7.0\DocumentCore.csproj.CoreCompileInputs.cache

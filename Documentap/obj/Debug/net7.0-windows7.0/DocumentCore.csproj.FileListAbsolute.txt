@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\DocumentApp\Documentap\bin\Debug\net7.0-windows7.0\DocumentCore.exe
+C:\Users\User\source\repos\DocumentApp\Documentap\bin\Debug\net7.0-windows7.0\DocumentCore.deps.json
+C:\Users\User\source\repos\DocumentApp\Documentap\bin\Debug\net7.0-windows7.0\DocumentCore.runtimeconfig.json
+C:\Users\User\source\repos\DocumentApp\Documentap\bin\Debug\net7.0-windows7.0\DocumentCore.dll
+C:\Users\User\source\repos\DocumentApp\Documentap\bin\Debug\net7.0-windows7.0\DocumentCore.pdb
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\Documentap.Form1.resources
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\DocumentCore.csproj.GenerateResource.cache
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\DocumentCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\DocumentCore.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\DocumentCore.AssemblyInfo.cs
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\DocumentCore.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\DocumentCore.dll
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\refint\DocumentCore.dll
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\DocumentCore.pdb
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\DocumentCore.genruntimeconfig.cache
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\ref\DocumentCore.dll
+C:\Users\User\source\repos\DocumentApp\Documentap\obj\Debug\net7.0-windows7.0\DocumentApp.Form1.resources
