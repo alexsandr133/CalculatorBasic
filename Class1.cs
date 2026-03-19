@@ -1,12 +1,7 @@
-﻿using System;
-
-public class Class1
+﻿namespace DocumentApp
 {
-	public Class1()
-	{
-		public int RectangleArea(int a, int b)
-	    {
-		return a * b;
-      	}
-	}
+    public class Class1
+    {
+
+    }
 }
