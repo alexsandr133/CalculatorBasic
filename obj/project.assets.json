@@ -1,68 +1,44 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
-      "DocumentCore/1.0.0": {
-        "type": "project",
-        "framework": "Unsupported,Version=v0.0",
-        "compile": {
-          "bin/placeholder/DocumentCore.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DocumentCore.dll": {}
-        }
-      }
-    }
+    "net8.0-windows7.0": {}
   },
-  "libraries": {
-    "DocumentCore/1.0.0": {
-      "type": "project",
-      "path": "../Documentap/DocumentCore.csproj",
-      "msbuildProject": "../Documentap/DocumentCore.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": [
-      "DocumentCore >= 1.0.0"
-    ]
+    "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\Student\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\DocumentApp\\DocumentApp\\DocumentApp.csproj",
-      "projectName": "DocumentApp",
-      "projectPath": "C:\\Users\\User\\source\\repos\\DocumentApp\\DocumentApp\\DocumentApp.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\DocumentApp\\DocumentApp\\obj\\",
+      "projectUniqueName": "C:\\Users\\Student\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+      "projectName": "WinFormsApp2",
+      "projectPath": "C:\\Users\\Student\\source\\repos\\WinFormsApp2\\WinFormsApp2\\WinFormsApp2.csproj",
+      "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Student\\source\\repos\\WinFormsApp2\\WinFormsApp2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net8.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\DocumentApp\\Documentap\\DocumentCore.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\DocumentApp\\Documentap\\DocumentCore.csproj"
-            }
-          }
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -78,8 +54,8 @@
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -94,21 +70,13 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1201",
-      "level": "Error",
-      "message": "Проект DocumentCore несовместим с net8.0 (.NETCoreApp,Version=v8.0). Проект DocumentCore поддерживает: net9.0-windows7.0 (.NETCoreApp,Version=v9.0)",
-      "libraryId": "DocumentCore",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }
