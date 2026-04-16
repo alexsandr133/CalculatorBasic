@@ -1,0 +1,14 @@
+C:\Users\Student\source\repos\zaripov55\zaripov55\bin\Debug\net8.0\zaripov55.exe
+C:\Users\Student\source\repos\zaripov55\zaripov55\bin\Debug\net8.0\zaripov55.deps.json
+C:\Users\Student\source\repos\zaripov55\zaripov55\bin\Debug\net8.0\zaripov55.runtimeconfig.json
+C:\Users\Student\source\repos\zaripov55\zaripov55\bin\Debug\net8.0\zaripov55.dll
+C:\Users\Student\source\repos\zaripov55\zaripov55\bin\Debug\net8.0\zaripov55.pdb
+C:\Users\Student\source\repos\zaripov55\zaripov55\obj\Debug\net8.0\zaripov55.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\zaripov55\zaripov55\obj\Debug\net8.0\zaripov55.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\zaripov55\zaripov55\obj\Debug\net8.0\zaripov55.AssemblyInfo.cs
+C:\Users\Student\source\repos\zaripov55\zaripov55\obj\Debug\net8.0\zaripov55.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\zaripov55\zaripov55\obj\Debug\net8.0\zaripov55.dll
+C:\Users\Student\source\repos\zaripov55\zaripov55\obj\Debug\net8.0\refint\zaripov55.dll
+C:\Users\Student\source\repos\zaripov55\zaripov55\obj\Debug\net8.0\zaripov55.pdb
+C:\Users\Student\source\repos\zaripov55\zaripov55\obj\Debug\net8.0\zaripov55.genruntimeconfig.cache
+C:\Users\Student\source\repos\zaripov55\zaripov55\obj\Debug\net8.0\ref\zaripov55.dll
