@@ -1,0 +1,14 @@
+C:\Users\Student\source\repos\zaripov668\bin\Debug\net8.0\zaripov668.exe
+C:\Users\Student\source\repos\zaripov668\bin\Debug\net8.0\zaripov668.deps.json
+C:\Users\Student\source\repos\zaripov668\bin\Debug\net8.0\zaripov668.runtimeconfig.json
+C:\Users\Student\source\repos\zaripov668\bin\Debug\net8.0\zaripov668.dll
+C:\Users\Student\source\repos\zaripov668\bin\Debug\net8.0\zaripov668.pdb
+C:\Users\Student\source\repos\zaripov668\obj\Debug\net8.0\zaripov668.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\zaripov668\obj\Debug\net8.0\zaripov668.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\zaripov668\obj\Debug\net8.0\zaripov668.AssemblyInfo.cs
+C:\Users\Student\source\repos\zaripov668\obj\Debug\net8.0\zaripov668.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\zaripov668\obj\Debug\net8.0\zaripov668.dll
+C:\Users\Student\source\repos\zaripov668\obj\Debug\net8.0\refint\zaripov668.dll
+C:\Users\Student\source\repos\zaripov668\obj\Debug\net8.0\zaripov668.pdb
+C:\Users\Student\source\repos\zaripov668\obj\Debug\net8.0\zaripov668.genruntimeconfig.cache
+C:\Users\Student\source\repos\zaripov668\obj\Debug\net8.0\ref\zaripov668.dll
