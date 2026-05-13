@@ -1,0 +1,14 @@
+C:\Users\Student\source\repos\zaripov580\bin\Debug\net8.0\zaripov580.exe
+C:\Users\Student\source\repos\zaripov580\bin\Debug\net8.0\zaripov580.deps.json
+C:\Users\Student\source\repos\zaripov580\bin\Debug\net8.0\zaripov580.runtimeconfig.json
+C:\Users\Student\source\repos\zaripov580\bin\Debug\net8.0\zaripov580.dll
+C:\Users\Student\source\repos\zaripov580\bin\Debug\net8.0\zaripov580.pdb
+C:\Users\Student\source\repos\zaripov580\obj\Debug\net8.0\zaripov580.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student\source\repos\zaripov580\obj\Debug\net8.0\zaripov580.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\zaripov580\obj\Debug\net8.0\zaripov580.AssemblyInfo.cs
+C:\Users\Student\source\repos\zaripov580\obj\Debug\net8.0\zaripov580.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\zaripov580\obj\Debug\net8.0\zaripov580.dll
+C:\Users\Student\source\repos\zaripov580\obj\Debug\net8.0\refint\zaripov580.dll
+C:\Users\Student\source\repos\zaripov580\obj\Debug\net8.0\zaripov580.pdb
+C:\Users\Student\source\repos\zaripov580\obj\Debug\net8.0\zaripov580.genruntimeconfig.cache
+C:\Users\Student\source\repos\zaripov580\obj\Debug\net8.0\ref\zaripov580.dll
