@@ -176,7 +176,14 @@ sortedNames();
 SortedStudentsAge();
 sortedByGroup();
 responseAverageGrade();
-
+FindStudents();
+//поиск
+void FindStudents()
+{
+  var first = students.First(s => s.Age < 18);
+  bool studentsThree = students.All(s => s.AverageGrade > 3.55);
+  Console.WriteLine(studentsThree);
+}
 class Student(int Id, string FullName,string Lastname, int Age, string Group,  double AverageGrade,int Course)
 {
      public int Id = Id;
