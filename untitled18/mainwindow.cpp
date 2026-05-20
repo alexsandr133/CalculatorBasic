@@ -47,9 +47,14 @@ void operationEntered()
     //запись в поле ввода
     QTextEdit* code = new QTextEdit;
     //заносим код в волеввода
-    Console->setPlainText(code);
-    QObject::connect(code, signal(textChaged(const QStrings,Console, SLOT(const QStrings))));
-    QWidget::connect(code, signal(textChaged(const QStrings,Console, SLOT(const QStrings))));
+    QObject::connect(code, &QTextEdit::textChanged,  [ code, Console](){
+        //прикаждом иизменении текста изменям
+        QString currentText = code->toPlainText();
+        //устанавливаем его в console
+        Console->setPlainText(currentText);
+
+    });
+
 }
 void operationSaved()
 {
@@ -57,7 +62,7 @@ void operationSaved()
     //пытаемся открыть файл для полного чтения
     QFile file;
     file.setName("file.txt");
-    if (!file.Open(QIODevice::WriteOnly))
+    if (!file.open(QIODevice::WriteOnly))
     {
         qDebug() <<"file is open";
     }
@@ -70,7 +75,7 @@ void operationSaved()
     file.close();
 
     //переносим все в консоль
-    console->setPlainText(content);
+    Сonsole->setPlainText(content);
     //сохраняем файл после текста
     if (Console->toPlainText().isEmperty)
     {
