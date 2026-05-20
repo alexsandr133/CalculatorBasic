@@ -20,11 +20,10 @@ public:
     ~MainWindow();
 signals:
     void digtalEnterd();
+    void operationSave();
 private slots:
     void digitalEntered();
     void OperationSave();
-    void OperationShareit();
-
 
 };
 #endif // MAINWINDOW_H
