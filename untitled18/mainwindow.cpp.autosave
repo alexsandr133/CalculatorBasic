@@ -39,6 +39,8 @@ void operationEntered()
     QFont font("lucida console",9,QFont::Normal);
     //ширина линии вввода консоли
     Console->setLineWidth(50);
-
-
+    //запись в поле ввода
+    QTextEdit* Console = new QLabel("&Code");
+    QTextEdit* code = new 
+  
 }

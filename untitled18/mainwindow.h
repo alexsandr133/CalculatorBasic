@@ -13,16 +13,15 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
-
-
 private:
     Ui::MainWindow *ui;
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+signals:
+    void digtalEnterd();
 private slots:
-    void digitalPressed();
-    void OperationInput():
+    void digitalEntered();
     void OperationSave();
     void OperationShareit();
 
