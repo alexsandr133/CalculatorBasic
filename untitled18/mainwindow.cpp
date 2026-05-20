@@ -7,7 +7,7 @@
 #include <QDebug>
 #include <QFile>
 #include <QMessageBox>
-//статус веденного текста
+//конструктор
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -16,8 +16,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
 }
 
-QWidget::connect(code, signal(textChaged(const QStrings,Console, SLOT(const QStrings))));
-QWidget::connect(savebutton, QPushButton::clicked, this , mainWindow(Text));
+
+
 //сигналы методов
 //пользователь вводит текст ии он менеятся
 
@@ -39,17 +39,17 @@ void operationEntered()
 {
     //получаем текст из ввода
 
-    QTextEdit*  Console = new QTextEdit;
+    QTextEdit*  Console = new QTextEdit("&Code");
     //задаем шрифт и его размер
     QFont font("lucida console",9,QFont::Normal);
     //ширина линии вввода консоли
     Console->setLineWidth(50);
     //запись в поле ввода
-    QTextEdit* Console = new QLabel("&Code");
     QTextEdit* code = new QTextEdit;
     //заносим код в волеввода
     Console->setPlainText(code);
     QObject::connect(code, signal(textChaged(const QStrings,Console, SLOT(const QStrings))));
+    QWidget::connect(code, signal(textChaged(const QStrings,Console, SLOT(const QStrings))));
 }
 void operationSaved()
 {
@@ -78,5 +78,6 @@ void operationSaved()
     }
 
     saveToFile();
+    QWidget::connect(savebutton, QPushButton::clicked, this , mainWindow(Text));
 }
 //сохраняем файл после текста
