@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+ #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QTextEdit>
 #include <QStatusBar>
@@ -7,6 +7,7 @@
 #include <QDebug>
 #include <QFile>
 #include <QMessageBox>
+#include <QFileDialog>
 //конструктор
 
 MainWindow::MainWindow(QWidget *parent)
@@ -56,33 +57,48 @@ void operationEntered()
     });
 
 }
-void operationSaved()
-{
+//void MainWindow:: OperationSaved()
+//{
+    //QTextEdit*  Console = new QTextEdit("&Code");
+    //задаем шрифт и его размер
+    //QFont font("lucida console",9,QFont::Normal);
+    //ширина линии вввода консоли
+    //Console->setLineWidth(50);
+
 
     //пытаемся открыть файл для полного чтения
-    QFile file;
-    file.setName("file.txt");
-    if (!file.open(QIODevice::WriteOnly))
-    {
-        qDebug() <<"file is open";
-    }
-    file.close();
+    //QFile file;
+    //file.setFileName("file.txt");
+    //if (!file.open(QIODevice::WriteOnly))
+    //{
+        //qDebug() <<"file is open";
+    //}
+    //file.close();
 
     //читаем файл
-    QTextStream in(&file);
-    in.setEncoding(QStringConverter::Utf8);
-    QString content  = in.readAll();
-    file.close();
+    //QTextStream in(&file);
+    //in.setEncoding(QStringConverter::Utf8);
+    //QString content  = in.readAll();
+    //file.close();
 
     //переносим все в консоль
-    Сonsole->setPlainText(content);
+    //Console->setPlainText(content);
     //сохраняем файл после текста
-    if (Console->toPlainText().isEmperty)
-    {
-        QMessageBox::warning(this,"нечего сохранять пусто");
-    }
+    //QString filename = QFileDialog::getSaveFileName(nullptr, "Save As","");
+    //if (!filename.isEmpty())
+    //{
+        //QFile file(filename);
+        //if (file.open(QIODevice::WriteOnly | QIODevice::Text))
+        //{
+            //QTextStream fileReadAll(&file)
+                //QMessageBox::about(nullptr,"успех",filename);
 
-    saveToFile();
-    QWidget::connect(savebutton, QPushButton::clicked, this , mainWindow(Text));
-}
+        //}
+        //file.close();
+    //}
+
+
+
+    //QWidget::connect(ui->savebutton, &QPushButton::clicked,  this , &MainWindow::OperationSaved);
+//}
 //сохраняем файл после текста

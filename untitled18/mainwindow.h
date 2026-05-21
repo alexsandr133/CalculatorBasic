@@ -19,11 +19,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 signals:
-    void digtalEnterd();
-    void operationSave();
+    void digtalEntered();
+    void OperationSave();
 private slots:
     void digitalEntered();
-    void OperationSave();
+    void OperationSaved();
 
 };
 #endif // MAINWINDOW_H
