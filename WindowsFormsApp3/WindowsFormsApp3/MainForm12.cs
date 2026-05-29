@@ -13,8 +13,8 @@ namespace WindowsFormsApp3
     public partial class MainForm12 : Form
     {   
         //шаги x и y
-        private int stepX = 5;
-        private int stexY = 5;
+        private int stepX = 0;
+        private int stexY = 0;
         //переменная для хранения ссылки на выбьбранны   переключатель
         private RadioButton selectCheck;
         public MainForm12()
@@ -37,7 +37,8 @@ namespace WindowsFormsApp3
         private void move_click(object sender, EventArgs e)
         { GroupBox groupBox = new GroupBox { Text = "группа выбора", Location = new Point(30, 100)
             //помещаем все элементы
-        };
+        };  int stepX = 0;
+            int stexY = 0;
             //groupBox.Сontrols.Add(radioButton1);
             groupBox.Controls.Add(radioButton2);
             groupBox.Controls.Add(radioButton3);
@@ -58,7 +59,7 @@ namespace WindowsFormsApp3
                 //сохраняем ссылку на выбранный переключатель
                 selectCheck = rb;
             }
-            //получаем текущюю позицию
+            //получаем текущюю позицию  
             Point current = label1.Location;
             //получаем новую позицию
             Point newLocation = new Point(current.X + stepX, current.Y + stexY);
