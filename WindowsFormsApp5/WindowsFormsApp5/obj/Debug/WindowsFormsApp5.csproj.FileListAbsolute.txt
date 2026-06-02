@@ -9,3 +9,4 @@ C:\Users\Ilzar_LG_Gram\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\
 C:\Users\Ilzar_LG_Gram\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.exe
 C:\Users\Ilzar_LG_Gram\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.pdb
 C:\Users\Ilzar_LG_Gram\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.form2.resources
+C:\Users\Ilzar_LG_Gram\source\repos\WindowsFormsApp5\WindowsFormsApp5\obj\Debug\WindowsFormsApp5.Form3.resources

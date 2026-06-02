@@ -23,7 +23,7 @@ namespace WindowsFormsApp5
 
         }
 
-        private void reshenie_click(object sender, KeyPressEventArgs e)
+        private void reshenie_click(object sender, System.Windows.Forms.KeyPressEventArgs e)
         {
             /*
              * логика кода:

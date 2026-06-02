@@ -51,6 +51,29 @@ namespace WindowsFormsApp5
             {
                 MessageBox.Show("MDI-контейнер не найден!");
             }
-        }
+
+            //связываем форму 3
+            Form3 newChildWidget = new Form3();
+            /* логика кода 
+             * у нас есть приязка 3 формы к контекстному менюпоэтому мы
+             * все заносим сюда.
+             * пользователь нажимает и у нас высвечивается форма с вводом элеметов
+            */
+            Form1 parentForm = (Form1)Application.OpenForms["Form1"];
+            //дальше проверяем условие что у нас родительское окно открыто
+            if (parentForm != null && parentForm.IsMdiContainer)
+            {   
+                //встараиваем форму
+                newChildWidget.MdiParent = parentForm;
+                newChildWidget.Text = "дочернее окно";
+                
+                newChildWidget.Show();
+            }
+            //в случае ошибки
+            else
+            {
+                newChildWidget.Show();
+            }
     }
+}
 }
