@@ -1,0 +1,11 @@
+C:\Users\Ilzar_LG_Gram\source\repos\textRedactor\textRedactor\bin\Debug\textRedactor.exe.config
+C:\Users\Ilzar_LG_Gram\source\repos\textRedactor\textRedactor\bin\Debug\textRedactor.exe
+C:\Users\Ilzar_LG_Gram\source\repos\textRedactor\textRedactor\bin\Debug\textRedactor.pdb
+C:\Users\Ilzar_LG_Gram\source\repos\textRedactor\textRedactor\obj\Debug\textRedactor.csproj.AssemblyReference.cache
+C:\Users\Ilzar_LG_Gram\source\repos\textRedactor\textRedactor\obj\Debug\textRedactor.Form1.resources
+C:\Users\Ilzar_LG_Gram\source\repos\textRedactor\textRedactor\obj\Debug\textRedactor.Form2.resources
+C:\Users\Ilzar_LG_Gram\source\repos\textRedactor\textRedactor\obj\Debug\textRedactor.Properties.Resources.resources
+C:\Users\Ilzar_LG_Gram\source\repos\textRedactor\textRedactor\obj\Debug\textRedactor.csproj.GenerateResource.cache
+C:\Users\Ilzar_LG_Gram\source\repos\textRedactor\textRedactor\obj\Debug\textRedactor.csproj.CoreCompileInputs.cache
+C:\Users\Ilzar_LG_Gram\source\repos\textRedactor\textRedactor\obj\Debug\textRedactor.exe
+C:\Users\Ilzar_LG_Gram\source\repos\textRedactor\textRedactor\obj\Debug\textRedactor.pdb
