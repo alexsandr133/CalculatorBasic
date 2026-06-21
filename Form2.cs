@@ -3,37 +3,54 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.IO;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-
+using System.IO;
+using System.Text.Json;
+using System.Diagnostics.Eventing.Reader;
+using System.Web;
 namespace Journal
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void open_Click(object sender, EventArgs e)
-        {
-            Form2 form2 = new Form2();
-            form2.Show();
-        }
-
-        private void exit_Click(object sender, EventArgs e)
+        private void exit4_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        //функция обработки нажатия для создания ока проводника
+        private void btnClick_Click(object sender, EventArgs e)
+        {
+            Keys modifierKeys = Control.ModifierKeys;
+            //проверяем какой модефикатор нажат
+            //можефикатор для кнопки отправить файл
+            if (ModifierKeys == Keys.Control)
+            {
+                OpenFileDialog ofd = new OpenFileDialog();
+                
+                
+            }
+            else 
+            {
+                //object Message = System.Windows.Forms.Message.("вы ничего не нажали");
+            }
+
+        }
+        
+
+        private void  button1_Click(object sender, EventArgs e)
         {
             //указываем путь к файлу
             string path = @"C:\users\Ilzar_LG_Gram\sourse\repos\students";
+           
 
 
             //используем расщирение для окна проводника
@@ -52,21 +69,30 @@ namespace Journal
                     string filePath = openFileDialog.FileName;
 
                     try
-                    {
+                    {   
                         //читаем файл
                         string content = File.ReadAllText(filePath);
                         //заносим в текстбокс
+                        textBox1.Text = content;
 
                     }
-                    catch (Exception ex)
-                    {
+                    catch ( Exception ex)
+                    {  
 
                         MessageBox.Show($"ошибка: {ex.Message}");
                     }
                 }
-
             }
-
         }
+
+        private void open_click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+        }
+      
     }
-}
+       
+    }
+
+
