@@ -12,32 +12,35 @@ namespace ConsoleApp34
         static void Main(string[] args)
         {
             //программа проверки остатка
-            int number1, number2, ostatok1, ostator2;
+            int number1, number2, ostatok1, ostatok2;
             string txt;
             //считвание целого числа
             number1 = Int32.Parse(
               Interaction.InputBox(
-                  "введите число",
+                  "введите число 1",
                   "привествую вас пользователь"
+              
              )
              );
+            number2 = Int32.Parse(
+             Interaction.InputBox(
+                 "введите число 2",
+                 "привествую вас пользователь"
+            )
+            );
             ostatok1 = number1 % 5;
+            ostatok2 = number2 % 7;
             if (ostatok1 == 2)
             {
                 MessageBox.Show("число делится на 5 с остком 2");
+                
+               
             }
             else
             {
                 MessageBox.Show("не получается остаток");
             }
-            number2 = Int32.Parse(
-            Interaction.InputBox(
-             "введите число",   
-             "привесвую вач пользователь"
-             )
-            );
-            ostatok1 = number1 % 7;
-            if (ostatok1 == 1)
+            if (ostatok2 == 1)
             {
                 MessageBox.Show("число делится на 7 с остком 1");
             }
@@ -45,7 +48,9 @@ namespace ConsoleApp34
             {
                 MessageBox.Show("не получается остаток");
             }
-
+            txt = $"остаток от деления: {ostatok1} и {ostatok2}";
+            MessageBox.Show("остаток от деления", txt);
+           
 
         }
     }
