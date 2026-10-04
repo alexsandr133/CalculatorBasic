@@ -1,0 +1,7 @@
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp35\ConsoleApp35\bin\Debug\ConsoleApp35.exe.config
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp35\ConsoleApp35\bin\Debug\ConsoleApp35.exe
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp35\ConsoleApp35\bin\Debug\ConsoleApp35.pdb
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp35\ConsoleApp35\obj\Debug\ConsoleApp35.csproj.AssemblyReference.cache
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp35\ConsoleApp35\obj\Debug\ConsoleApp35.csproj.CoreCompileInputs.cache
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp35\ConsoleApp35\obj\Debug\ConsoleApp35.exe
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp35\ConsoleApp35\obj\Debug\ConsoleApp35.pdb
