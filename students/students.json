@@ -1,0 +1,153 @@
+    
+[
+{
+    "name": "Alexsandr",
+    "famylya": "Zacharov",
+    "age": 19,
+    "name_groups": "Software_developments",
+    "course": 1,
+    "math_grade": 4.4,
+    "informatics_grade": 3.77,
+    "english_grade": 4.68,
+    "chemistry_grade": 5.0,
+    "IsDolgHave": false
+},
+
+
+{
+    "name": "Evgenyi",
+    "famylya": "Zacharov",
+    "age": 25,
+    "name_groups": "Software_developments",
+    "course": 3,
+    "math_grade": 3.99,
+    "informatics_grade": 3.77,
+    "english_grade": 4.22,
+    "chemistry_grade": 3.7,
+    "IsDolgHave": false
+},
+
+{
+    "name": "Alexsandr",
+    "famylya": "Zacharсhenco",
+    "age": 16,
+    "name_groups": "Software_developments",
+    "course": 1,
+    "math_grade": 4.4,
+    "informatics_grade": 3.77,
+    "english_grade": 4.68,
+    "chemistry_grade": 5.0,
+    "IsDolgHave": false
+},
+
+{
+    "name": "Evgenya",
+    "famylya": "Zacharova",
+    "age": 19,
+    "name_groups": "Graphic-designts",
+    "course": 1,
+    "math_grade": 4.09,
+    "informatics_grade": 3.77,
+    "english_grade": 4.68,
+    "chemistry_grade": 5.0,
+    "IsDolgHave": false
+},
+{
+    "name": "Michael",
+    "famylya": "Greysenberg",
+    "age": 25,
+    "name_groups": "Graphic-designts",
+    "course": 4,
+    "math_grade": 4.08,
+    "informatics_grade": 4.86,
+    "english_grade": 4.68,
+    "chemistry_grade": 5.0,
+    "IsDolgHave": false
+},
+{
+    "name": "Michael",
+    "famylya": "Raimer",
+    "age": 20,
+    "name_groups": "Graphic-designts",
+    "course": 4,
+    "math_grade": 3.08,
+    "informatics_grade": 4.06,
+    "english_grade": 3.33,
+    "chemistry_grade": 5.0,
+    "IsDolgHave": false
+},
+{
+    "name": "Sonya",
+    "famylya": "Matyshova",
+    "age": 22,
+    "name_groups": "Software_developments",
+    "course": 2,
+    "math_grade": 4.78,
+    "informatics_grade": 4.96,
+    "english_grade": 4.68,
+    "chemistry_grade": 5.0,
+    "IsDolgHave": false
+},
+{
+    "name": "Artem",
+    "famylya": "Greysenberg",
+    "age": 17,
+    "name_groups": "Management",
+    "course": 4,
+    "math_grade": 4.08,
+    "informatics_grade": 4.86,
+    "english_grade": 4.68,
+    "chemistry_grade": 5.0,
+    "IsDolgHave": false
+},
+{
+    "name": "Alexsandr",
+    "famylya": "Kochev",
+    "age": 25,
+    "name_groups": "Management",
+    "course": 5,
+    "math_grade": 4.0,
+    "informatics_grade": 3.4,
+    "english_grade": 4.68,
+    "chemistry_grade": 5.0,
+    "IsDolgHave": false
+},
+{
+    "name": "Michael",
+    "famylya": "Greysenberg",
+    "age": 25,
+    "name_groups": "Software_developments",
+    "course": 4,
+    "math_grade": 4.08,
+    "informatics_grade": 4.86,
+    "english_grade": 4.68,
+    "chemistry_grade": 5.0,
+    "IsDolgHave": false
+},
+
+{
+    "name": "Michael",
+    "famylya": "Greysenberg",
+    "age": 25,
+    "name_groups": "Software_developments",
+    "course": 4,
+    "math_grade": 4.08,
+    "informatics_grade": 4.86,
+    "english_grade": 4.68,
+    "chemistry_grade": 5.0,
+    "IsDolgHave": false
+},
+{
+    "name": "Michael",
+    "famylya": "Greysenberg",
+    "age": 25,
+    "name_groups": "Software_developments",
+    "course": 4,
+    "math_grade": 4.08,
+    "informatics_grade": 4.86,
+    "english_grade": 4.68,
+    "chemistry_grade": 5.0,
+    "IsDolgHave": false
+}
+
+]

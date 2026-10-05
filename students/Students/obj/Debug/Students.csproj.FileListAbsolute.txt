@@ -1,0 +1,23 @@
+C:\Users\Asus\Desktop\Students\Students\bin\Debug\Students.exe.config
+C:\Users\Asus\Desktop\Students\Students\bin\Debug\Students.exe
+C:\Users\Asus\Desktop\Students\Students\bin\Debug\Students.pdb
+C:\Users\Asus\Desktop\Students\Students\obj\Debug\Students.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\Students\Students\obj\Debug\Students.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\Desktop\Students\Students\obj\Debug\Students.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\Students\Students\obj\Debug\Students.exe
+C:\Users\Asus\Desktop\Students\Students\obj\Debug\Students.pdb
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\02) 17.12.23\Homework 02 ''Оценки студентов''\Students\Students\bin\Debug\Students.exe.config
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\02) 17.12.23\Homework 02 ''Оценки студентов''\Students\Students\bin\Debug\Students.exe
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\02) 17.12.23\Homework 02 ''Оценки студентов''\Students\Students\bin\Debug\Students.pdb
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\02) 17.12.23\Homework 02 ''Оценки студентов''\Students\Students\obj\Debug\Students.csproj.AssemblyReference.cache
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\02) 17.12.23\Homework 02 ''Оценки студентов''\Students\Students\obj\Debug\Students.csproj.SuggestedBindingRedirects.cache
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\02) 17.12.23\Homework 02 ''Оценки студентов''\Students\Students\obj\Debug\Students.csproj.CoreCompileInputs.cache
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\02) 17.12.23\Homework 02 ''Оценки студентов''\Students\Students\obj\Debug\Students.exe
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\02) 17.12.23\Homework 02 ''Оценки студентов''\Students\Students\obj\Debug\Students.pdb
+C:\Users\Ilzar_LG_Gram\source\repos\students\Students\bin\Debug\Students.exe.config
+C:\Users\Ilzar_LG_Gram\source\repos\students\Students\bin\Debug\Students.exe
+C:\Users\Ilzar_LG_Gram\source\repos\students\Students\bin\Debug\Students.pdb
+C:\Users\Ilzar_LG_Gram\source\repos\students\Students\obj\Debug\Students.csproj.AssemblyReference.cache
+C:\Users\Ilzar_LG_Gram\source\repos\students\Students\obj\Debug\Students.csproj.CoreCompileInputs.cache
+C:\Users\Ilzar_LG_Gram\source\repos\students\Students\obj\Debug\Students.exe
+C:\Users\Ilzar_LG_Gram\source\repos\students\Students\obj\Debug\Students.pdb
