@@ -1,0 +1,23 @@
+C:\Users\Asus\Desktop\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.csproj.SuggestedBindingRedirects.cache
+C:\Users\Asus\Desktop\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\VegetablesFruits\VegetablesFruits\bin\Debug\VegetablesFruits.exe.config
+C:\Users\Asus\Desktop\VegetablesFruits\VegetablesFruits\bin\Debug\VegetablesFruits.exe
+C:\Users\Asus\Desktop\VegetablesFruits\VegetablesFruits\bin\Debug\VegetablesFruits.pdb
+C:\Users\Asus\Desktop\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.exe
+C:\Users\Asus\Desktop\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.pdb
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\01) 10.12.23\VegetablesFruits\VegetablesFruits\bin\Debug\VegetablesFruits.exe.config
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\01) 10.12.23\VegetablesFruits\VegetablesFruits\bin\Debug\VegetablesFruits.exe
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\01) 10.12.23\VegetablesFruits\VegetablesFruits\bin\Debug\VegetablesFruits.pdb
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\01) 10.12.23\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.csproj.AssemblyReference.cache
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\01) 10.12.23\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.csproj.SuggestedBindingRedirects.cache
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\01) 10.12.23\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.csproj.CoreCompileInputs.cache
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\01) 10.12.23\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.exe
+C:\Академия ''Шаг''\Oбучение ''Шаг''\Домашние задания\ADO.NET\01) 10.12.23\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.pdb
+C:\Users\Ilzar_LG_Gram\source\repos\VegetablesFruits\VegetablesFruits\bin\Debug\VegetablesFruits.exe.config
+C:\Users\Ilzar_LG_Gram\source\repos\VegetablesFruits\VegetablesFruits\bin\Debug\VegetablesFruits.exe
+C:\Users\Ilzar_LG_Gram\source\repos\VegetablesFruits\VegetablesFruits\bin\Debug\VegetablesFruits.pdb
+C:\Users\Ilzar_LG_Gram\source\repos\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.csproj.AssemblyReference.cache
+C:\Users\Ilzar_LG_Gram\source\repos\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.csproj.CoreCompileInputs.cache
+C:\Users\Ilzar_LG_Gram\source\repos\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.exe
+C:\Users\Ilzar_LG_Gram\source\repos\VegetablesFruits\VegetablesFruits\obj\Debug\VegetablesFruits.pdb
