@@ -1,0 +1,7 @@
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp42\ConsoleApp42\bin\Debug\ConsoleApp42.exe.config
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp42\ConsoleApp42\bin\Debug\ConsoleApp42.exe
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp42\ConsoleApp42\bin\Debug\ConsoleApp42.pdb
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp42\ConsoleApp42\obj\Debug\ConsoleApp42.csproj.AssemblyReference.cache
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp42\ConsoleApp42\obj\Debug\ConsoleApp42.csproj.CoreCompileInputs.cache
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp42\ConsoleApp42\obj\Debug\ConsoleApp42.exe
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp42\ConsoleApp42\obj\Debug\ConsoleApp42.pdb
