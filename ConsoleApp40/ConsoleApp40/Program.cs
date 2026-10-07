@@ -17,16 +17,27 @@ namespace ConsoleApp40
             int ostatok;
             Console.WriteLine("введите число");
             number = Convert.ToInt32(Console.ReadLine());
-            result = number / 8;
-            ostatok = result % 8 + result ;
+            //result = number / 8;
+            //ostatok = number % 8;
+            string osratok1 = "";
             if (number == 0 )
             {
-                Console.WriteLine("вы не ввели число");
+                Console.WriteLine("вы не ввели число и восьмеричное предсавление 0");
 
             }
             else
             {
-                Console.WriteLine($"у вас остаток от числа {result} число в восьмеричной системе {ostatok}");
+              while(number < 0)
+              {
+                //выясняем остаток в от числа
+                  ostatok = number % 8;
+                    //приклеваем в начало
+                    osratok1 = ostatok + osratok1;
+                    number = number / 8;
+
+              }
+                Console.WriteLine($" число {number} в восьмеричной системе {number}");
+
             }
           
         }
