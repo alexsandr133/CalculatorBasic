@@ -33,8 +33,8 @@ namespace ConsoleApp40
                   ostatok = number % 8;
                     //приклеваем в начало
                     osratok1 = ostatok + osratok1;
+                    //делим число
                     number = number / 8;
-
               }
                 Console.WriteLine($" число {number} в восьмеричной системе {number}");
 
