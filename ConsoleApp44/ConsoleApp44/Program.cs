@@ -37,8 +37,12 @@ namespace ConsoleApp44
                 //информационная пиктограмма
                 Icon = MessageBoxIcon.Information;
                 //текст сообщения
-
+                msg = "очень приятно " + name + "!";
+                title = "знакомство сотоялось";
             }
+            //отображение сообщения (аргумены текст
+            //отображение сообщния заголовка кнопки
+            MessageBox.Show(msg, title, MessageBoxButtons.OK, Icon);
              
         }
     }
