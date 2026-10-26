@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp10
 {
-    internal static class DB_
+    internal static class DBRequserts_
     {
         /// <summary>
         /// Главная точка входа для приложения.

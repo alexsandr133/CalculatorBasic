@@ -29,16 +29,15 @@
         private void InitializeComponent()
         {
             this.tbDatSource = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.labinit = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnConnect = new System.Windows.Forms.Button();
             this.labDataSourse = new System.Windows.Forms.Label();
             this.labInitCat = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // tbDatSource
@@ -51,29 +50,14 @@
             this.tbDatSource.Text = "localhost\\VSdotNET";
             this.tbDatSource.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // labinit
             // 
-            this.textBox2.Location = new System.Drawing.Point(166, 55);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(784, 37);
-            this.textBox2.TabIndex = 1;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(29, 141);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(1064, 218);
-            this.textBox3.TabIndex = 2;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(29, 417);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(1064, 226);
-            this.textBox4.TabIndex = 3;
+            this.labinit.Location = new System.Drawing.Point(166, 55);
+            this.labinit.Multiline = true;
+            this.labinit.Name = "labinit";
+            this.labinit.Size = new System.Drawing.Size(784, 37);
+            this.labinit.TabIndex = 1;
+            this.labinit.Text = "CompShop";
             // 
             // button1
             // 
@@ -84,14 +68,14 @@
             this.button1.Text = "send requests";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnConnect
             // 
-            this.button2.Location = new System.Drawing.Point(973, 61);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 31);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "connect to db";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnConnect.Location = new System.Drawing.Point(973, 61);
+            this.btnConnect.Name = "btnConnect";
+            this.btnConnect.Size = new System.Drawing.Size(135, 31);
+            this.btnConnect.TabIndex = 5;
+            this.btnConnect.Text = "connect to db";
+            this.btnConnect.UseVisualStyleBackColor = true;
             // 
             // labDataSourse
             // 
@@ -111,15 +95,6 @@
             this.labInitCat.TabIndex = 7;
             this.labInitCat.Text = "initial catalog";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(520, 336);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 20);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "initial catalog";
-            // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(148, 374);
@@ -138,21 +113,36 @@
             this.label4.Text = "sql requests";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(29, 111);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(1064, 257);
+            this.textBox1.TabIndex = 12;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(29, 424);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(1064, 257);
+            this.textBox2.TabIndex = 13;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1140, 693);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.labInitCat);
             this.Controls.Add(this.labDataSourse);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnConnect);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.labinit);
             this.Controls.Add(this.tbDatSource);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -165,16 +155,15 @@
         #endregion
 
         private System.Windows.Forms.TextBox tbDatSource;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox labinit;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnConnect;
         private System.Windows.Forms.Label labDataSourse;
         private System.Windows.Forms.Label labInitCat;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
