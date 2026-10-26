@@ -1,8 +1,9 @@
 ﻿using System;
 using Microsoft.Data.SqlClient;
-public class Class1
+public class DBRequests
+
 {
-	public Class1()
+	public DBRequests()
 	{
 		private oleDbConnection DBCon = new oleDbConnection();
 	//метод соедиенения с базой данных
@@ -43,6 +44,19 @@ public class Class1
 	    }
 	    //метод  открытия таблиц
 		public string GetTableFields(string TableName)
+		/*
+		 * логика раьботы программы:
+		 * создается экземпляр класса  OleDbDataAdapter
+		 * который осцществляет  обработку возможных sql запросов
+		 * в конструктор передается строка с sql  запросом
+		 * выполняющем выборку всех строк строк из таблицы
+		 *  и TableName
+		 *  далее происходит обработка исключений
+		 *  и перехват данных
+		 *  и с помощью цикла формируется строка таблицы
+		 *  
+		 *  
+	    */
 	    {
 		if (DBCon.State == ConnectState.Open)
 		{
@@ -68,7 +82,7 @@ public class Class1
 			return ResStr
 			else
 			{
-				return ResStr;
+				return null;
 			}
 
 

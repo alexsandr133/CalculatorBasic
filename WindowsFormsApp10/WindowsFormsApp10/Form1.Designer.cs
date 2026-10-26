@@ -147,6 +147,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Click += new System.EventHandler(this.MainForm_load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

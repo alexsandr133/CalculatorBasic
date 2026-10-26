@@ -26,5 +26,13 @@ namespace WindowsFormsApp10
         {
 
         }
+
+        private void MainForm_load(object sender, EventArgs e)
+        {
+            //********загрузка формы*******
+            //создаем класс взаимодействия с базой данных
+            
+
+        }
     }
 }
