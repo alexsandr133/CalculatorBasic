@@ -1,0 +1,7 @@
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp88\ConsoleApp88\bin\Debug\ConsoleApp88.exe.config
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp88\ConsoleApp88\bin\Debug\ConsoleApp88.exe
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp88\ConsoleApp88\bin\Debug\ConsoleApp88.pdb
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp88\ConsoleApp88\obj\Debug\ConsoleApp88.csproj.AssemblyReference.cache
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp88\ConsoleApp88\obj\Debug\ConsoleApp88.csproj.CoreCompileInputs.cache
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp88\ConsoleApp88\obj\Debug\ConsoleApp88.exe
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp88\ConsoleApp88\obj\Debug\ConsoleApp88.pdb
