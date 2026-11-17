@@ -47,7 +47,7 @@ namespace ConsoleApp93
             while (true)
             {
                 Console.WriteLine("хотите расчитать ипотеку? да/нет");
-                answer = Console.ReadLine();
+                answer = Console.ReadLine().Trim().ToLower();
                 if (answer == "да")
                 {
                     continue;
@@ -63,9 +63,11 @@ namespace ConsoleApp93
                 Console.WriteLine("введите фамилию");
                 patronymuc = Console.ReadLine();
                 Console.WriteLine("введите свое место работы");
-                brach_post = Console.ReadLine();
+                brach_post = Console.ReadLine().Trim().ToLower();
                 Console.WriteLine("введите срок погашения кредита:");
                 srok_pogashenia = Int32.Parse(Console.ReadLine());
+                Console.WriteLine("введите регион проэивания");
+                region = Console.ReadLine();
 
                 //дальше начинаем подсчитывать ипотеку исходя из условия
                 /*условия следующие:
@@ -128,6 +130,14 @@ namespace ConsoleApp93
                     platege = price * MonthLyRate * Math.Pow(1 + MonthLyRate, mounths) / (Math.Pow(1 + MonthLyRate, mounths) - 1);
 
                 }
+                //окончание расчета
+                //вывод
+                Console.WriteLine("вся информация по вашему платежу:");
+                Console.WriteLine($"имя клиента и его фамилия: {name} {patronymuc}");
+                Console.WriteLine($"ипотека на вашу квартиру{platege:f2}"); //до двух цифр до запятой
+                Console.WriteLine($"регион проживания {region}");
+                Console.WriteLine($"кооличство детей {childern}");
+                Console.WriteLine($"ставка по кредиту {annul_kredits:f2}");
 
 
         }
