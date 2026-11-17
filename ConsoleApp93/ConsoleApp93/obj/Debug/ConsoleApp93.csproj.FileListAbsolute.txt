@@ -1,0 +1,7 @@
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp93\ConsoleApp93\bin\Debug\ConsoleApp93.exe.config
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp93\ConsoleApp93\bin\Debug\ConsoleApp93.exe
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp93\ConsoleApp93\bin\Debug\ConsoleApp93.pdb
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp93\ConsoleApp93\obj\Debug\ConsoleApp93.csproj.AssemblyReference.cache
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp93\ConsoleApp93\obj\Debug\ConsoleApp93.csproj.CoreCompileInputs.cache
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp93\ConsoleApp93\obj\Debug\ConsoleApp93.exe
+C:\Users\Ilzar_LG_Gram\source\repos\ConsoleApp93\ConsoleApp93\obj\Debug\ConsoleApp93.pdb
