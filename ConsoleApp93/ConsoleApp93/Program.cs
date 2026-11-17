@@ -48,15 +48,17 @@ namespace ConsoleApp93
             {
                 Console.WriteLine("хотите расчитать ипотеку? да/нет");
                 answer = Console.ReadLine().Trim().ToLower();
-                if (answer == "да")
+                if (answer == "нет")
                 {
+                    Console.WriteLine("введите да или нет");
                     continue;
                 }
-                else
+                if(answer != "да")
                 {
-                    Console.WriteLine("досвидания");
-                    break;
+                    Console.WriteLine("введите да или нет");
+                    continue;
                 }
+
                 Console.WriteLine("продолжайте вводить  данные: имя фамилию и место работы");
                 Console.WriteLine("Введите имя:");
                 name = Console.ReadLine();
@@ -68,6 +70,8 @@ namespace ConsoleApp93
                 srok_pogashenia = Int32.Parse(Console.ReadLine());
                 Console.WriteLine("введите регион проэивания");
                 region = Console.ReadLine();
+                Console.WriteLine("введите цену покупки");
+                price = Int32.Parse(Console.ReadLine().Trim());
 
                 //дальше начинаем подсчитывать ипотеку исходя из условия
                 /*условия следующие:
@@ -134,10 +138,11 @@ namespace ConsoleApp93
                 //вывод
                 Console.WriteLine("вся информация по вашему платежу:");
                 Console.WriteLine($"имя клиента и его фамилия: {name} {patronymuc}");
-                Console.WriteLine($"ипотека на вашу квартиру{platege:f2}"); //до двух цифр до запятой
+                Console.WriteLine($"ипотека на вашу квартиру  {platege:f2}"); //до двух цифр до запятой
                 Console.WriteLine($"регион проживания {region}");
                 Console.WriteLine($"кооличство детей {childern}");
-                Console.WriteLine($"ставка по кредиту {annul_kredits:f2}");
+                Console.WriteLine($"ставка по кредиту  {annul_kredits:f2}");
+
 
 
         }
