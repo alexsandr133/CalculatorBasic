@@ -13,33 +13,34 @@ import math
 # далее мы провеям если ввел ли пользователь число и далее
 # программа убирает лишний символ и знак  и 0#
 #создание окна
-
+tk = Tk()
 root = Tk() #создаем корневой обьект - окно
 root['bg'] = '#6B7170'
 root.title("калькулятор на tkinter")
-root.geometry("400x500") #установка размера окна
+root.geometry("700x500") #установка размера окна
 Label = Label(text="калькулятор на tkinter")#создаем текстовую метку
 Label.pack
 #централизуем кнопки
 #насторойка центра сетки grid для того чтобы кнопки стояли по центру
 #мы говорим растягивай пустоту  по краям  колонки (0, 6) а центр  (1,2,3,4) не трогай 
 root.grid_rowconfigure(0,weight=1)#растягиваем пустому сверху
-root.grid_rowconfigure(7, weight=1)#растягиваем пустомму строку(7 строка после моих кнопок)
+root.grid_rowconfigure(6, weight=1)#растягиваем пустомму строку(7 строка после моих кнопок)
 root.grid_columnconfigure(0, weight=1)#раятягиваем пустоту слева
 root.grid_columnconfigure(0, weight=1)#растягиваем пустоу справа
 
 #создание поле ввода
 calculator = Entry(tk,justify=RIGHT, font=('Times new roman',15), width=15)#задаем стиль шрифта и расположение текста в правом краю экрана
 calculator.insert(0, '0')#изначальное значение на экране
-calculator.grid(row=0, column=0, columnspan=3,padx=5,pady=5, sticky="we")
-def add_digit_buttons(digit):
-    value = calculator.get()
-    if value =="":
-        value = "0"  #пустое поле
-    if value[0]=="0" and digit !=0:
+calculator.grid(row=0, column=0, columnspan=3,padx=5,pady=5, sticky="we")#раястягиваем окно ввода по ширине
+#если на экране только 0 стираем его перед вводом новой цифры
+def add_digit_buttons(Entry,digit):
+    #берем текущее значение
+    value = Entry.get()
+    #если на экране только 0 стираем его перед вводом новой цифры
+    if value[0]=="0" and digit !=".":
       value = ""
-    calculator.delete(0, END)
-    calculator.insert(0, value+str(digit))
+    Entry.delete(0, END)
+    Entry.insert(0, value+str(digit))
 #функция добавления операции
 def add_operations(operation):
    value = calculator.get()
@@ -48,20 +49,20 @@ def add_operations(operation):
       #далее вызывпем функцию счета calculate если введен знак
    elif '+' in value or '-' in value or '*' in value or '/' in value:
        calculate()
-       value = calculator
-   calculator.delete(0, END) #очищаем поле от значений 
-   calculator.insert(0, value + operation) #вставляем значение и знак операции
+       value = Entry
+   Entry.delete(0, END) #очищаем поле от значений 
+   Entry.insert(0, value + operation) #вставляем значение и знак операции
 #функция рассчета выражения
 
 def calculate(value):
-  value = calculator.get()
+  value = Entry.get()
   # 
   # смысл данной функции в том что
   # она уже считает значение выражения
   # когда пользоватедь-ль вводит знак
   if value[-1] in '-+/*':
       value = value+value[:-1]
-  calculate.delete(0, END)
+  Entry.delete(0, END)
   #обработка исклбчений
   try:
       #вставляем значение в поле ввода
@@ -99,21 +100,21 @@ def clear(value):
 #функции отвечающие за кнопки
 #функция создания кнопок калькулятора
 def make_calculator_buttons(digit):
-    return Button(text='=',width=4,height=2, bd=5, font=('times  New Roman', 13), command=calculate)
+    return Button(text=digit,width=4,height=2, bd=5, font=('times  New Roman', 13), command=lambda:add_digit_buttons)
 #функция для вызова кнопки удаления
 def make_clear_button(value):
-     return Button(text="C",width=4,height=2, bd=5, font=('times  New Roman', 13), command=clear)
+     return Button(text="C",width=4,height=2, bd=5, font=('times  New Roman', 13), command=lambda:clear)
 def make_sqrt_button():
-    return Button(text=add_sqrt,width=4,height=2, bd=5, font=('times  New Roman', 13), command=add_sqrt)
+    return Button(text=add_sqrt,width=4,height=2, bd=5, font=('times  New Roman', 13), command=lambda:add_sqrt)
 def make_sin_buttons(add_sin):
-    return Button(text="sin",width=4,height=2, bd=5, font=('times  New Roman', 13), command=add_sin)
+    return Button(text="sin",width=4,height=2, bd=5, font=('times  New Roman', 13), command=lambda:add_sin)
 def make_cos_buttons(add_cos):
-    return Button(text="cos", bd=5, font=('times  New Roman', 13), command=add_cos)
-def make_buttons_calculate(value):
-    return Button(text=value,width=4,height=2, bd =5,font=('times  New Roman', 13), command=calculate)
+    return Button(text="cos", bd=5, font=('times  New Roman', 13), command=lambda:add_cos)
+def make_calculate(value):
+    return Button(text=value,width=4,height=2, bd =5,font=('times  New Roman', 13), command=lambda:calculate)
     
 def add_sqrt_buttons():
-    return Button(text="sqrt",width=5, height=2,bd =5,font=('times  New Roman', 13), command=add_sqrt)
+    return Button(text="sqrt",width=5, height=2,bd =5,font=('times  New Roman', 13), command=lambda:add_sqrt)
 def make_digit_button(digit):
     return Button(tk,text=digit, bd=5, font=('times New Roman', 13), command=lambda:make_digit_button)
 #расплогагаем кнопки
@@ -133,14 +134,14 @@ make_digit_button('6').grid(row=2, column=2, padx=5, pady=5)
 make_digit_button('1').grid(row=3, column=0, padx=5, pady=5)
 make_digit_button('2').grid(row=3, column=1, padx=5, pady=5)
 make_digit_button('3').grid(row=3, column=2, padx=5, pady=5)
-
+make_digit_button('1').config(width=4, height=2)
 # 0 и знак равно
 make_digit_button('0').grid(row=4, column=0, columnspan=2, padx=5, pady=5) # растянем на 2 колонки
 make_calculator_buttons('=').grid(row=4, column=2, padx=5, pady=5)
 #кнопки сложения и корня 
 #add_sqrt('sqrt').grid(row=4,column=2,padx=5,columnspan=2, pady=5)
-make_buttons_calculate('+').grid(row=4,column=2,padx=5,columnspan=2, pady=5)
-make_buttons_calculate('-').grid(row=5,column=2,padx=5,columnspan=2, pady=5)
-make_buttons_calculate('*').grid(row=6,column=2,padx=5,columnspan=2, pady=5)
-make_buttons_calculate('/').grid(row=7,column=2,padx=5,columnspan=2, pady=5)
+make_calculate('+').grid(row=1,column=3,padx=5,columnspan=2, pady=5)
+make_calculate('-').grid(row=2,column=3,padx=5,columnspan=2, pady=5)
+make_calculate('*').grid(row=3,column=3,padx=5,columnspan=2, pady=5)
+make_calculate('/').grid(row=4,column=3,padx=5,columnspan=2, pady=5)
 root.mainloop()   
